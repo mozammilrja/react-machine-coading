@@ -7,8 +7,7 @@ import useUserTracking from "../../UserTrack/useUserTracking";
 import { custmizeAddress } from "../../../Services/common.service";
 
 const Home = () => {
-  const {userId,userCount}: any = useUserTracking();
-  console.log("userId", userId, "userCount", userCount);
+  const { userId, userCount }: any = useUserTracking();
 
   const { t } = useTranslation();
 
